@@ -1,0 +1,30 @@
+{
+  "name": "teslatoamqp",
+  "version": "1.0.0",
+  "description": "Reads Tesla vehicle data from the unofficial owner API and writes to AMQP 0.9.1",
+  "main": "tesla-app.js",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "bluebird": "^3.7.2",
+    "dotenv": "^10.0.0",
+    "teslajs": "^4.9.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsmithson/teslaToAmqp.git"
+  },
+  "keywords": [
+    "Tesla",
+    "AMQP"
+  ],
+  "author": "Derek Smithson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dsmithson/teslaToAmqp/issues"
+  },
+  "homepage": "https://github.com/dsmithson/teslaToAmqp#readme"
+}
