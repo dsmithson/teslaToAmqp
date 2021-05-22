@@ -24,7 +24,7 @@ function getSettings(callback) {
         password: process.env.TESLA_PASSWORD,
         token: process.env.TESLA_TOKEN
     };
-    if((!response.username && !response.password) || !response.token) {
+    if((!response.username || !response.password) && !response.token) {
         return callback(new Error("Need to provide envoronment variables.  Either TESLA_TOKEN OR TESLA_USERNAME and TESLA_PASSWORD"));
     }
 
