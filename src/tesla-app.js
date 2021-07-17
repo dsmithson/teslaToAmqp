@@ -210,7 +210,7 @@ function loginToTesla(config, callback) {
             process.exit(1);
         }
 
-        var token = JSON.stringify(result.authToken);
+        var token = result.authToken;
 
         if (token) {
             console.log("Login Succesful!");
