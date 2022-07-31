@@ -3,3 +3,5 @@
 
 # Ignore node modules
 src/node_modules
+
+.vscode/
